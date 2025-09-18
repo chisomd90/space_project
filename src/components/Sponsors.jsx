@@ -1,10 +1,9 @@
-import React from 'react'
-import c1 from "../assets/c1.svg"
-import c2 from "../assets/c2.svg"
-import c3 from "../assets/c3.svg"
-import c4 from "../assets/c4.svg"
-import c5 from "../assets/c5.svg"
-
+import React from "react";
+import c1 from "../assets/c1.svg";
+import c2 from "../assets/c2.svg";
+import c3 from "../assets/c3.svg";
+import c4 from "../assets/c4.svg";
+import c5 from "../assets/c5.svg";
 
 const Sponsors = () => {
   const sponpors = [
@@ -29,7 +28,7 @@ const Sponsors = () => {
     c1,
   ];
   return (
-    <section className='bg-black py-8'>
+    <section className="bg-black py-8">
       <div className="my-10 flex justify-between gap-2 overflow-x-scroll">
         {sponpors.map((image, index) => {
           return (
@@ -46,4 +45,4 @@ const Sponsors = () => {
   );
 };
 
-export default Sponsors
+export default Sponsors;

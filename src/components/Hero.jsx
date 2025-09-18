@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
 
           <div>
-            <h1 className="adamina text-[80px] font-[400]">
+            <h1 className="adamina text-[40px] md:text-[50px] lg:text-[80px] font-[400]">
               Beyond Space <br /> Beyond Limit.
             </h1>
           </div>
