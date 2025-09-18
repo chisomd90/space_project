@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import "tailwindcss";
+
+
+.layout {
+  @apply max-w-[1240px] mx-auto p-4;
+}
+
+
+@theme{
+  --header-color: hsla(0, 0%, 0%, 0.03);
+  --color2: hsla(0, 0%, 0%, 1);
+  --button-color: hsla(0, 0%, 100%, 1);
+  --border-color: hsla(0, 0%, 94%, 1);
+  --border-color2: hsla(0, 0%, 76%, 0.21)
+  --navborder-color: hsla(0, 0%, 12%, 1);
+  --button-text: hsla(0, 0%, 0%, 1);
+  --bg-color: hsla(0, 0%, 0%, 1);
+  --text-color: hsla(0, 0%, 94%, 1);
+  --p-color: hsla(0, 0%, 69%, 1);
+  --text-mission-color: hsla(0, 0%, 50%, 1);
+  --visionborder: hsla(0, 0%, 29%, 1);
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+
+
+
+.adamina {
+  font-family: "Adamina", serif;
+}
+
+.imgSize{
+  width: 223px;
+  height: 139px;
+  border-radius: 20px;
+  opacity: 50%;
+}
+
+span{
+  color: white;
+}
