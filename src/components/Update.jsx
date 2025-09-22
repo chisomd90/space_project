@@ -39,12 +39,12 @@ const Update = () => {
           />
           <p className="text-red-500">{error}</p>
           <div className="">
-            <button onClick={handleSubmit} className="lg:absolute lg:right-93 bottom-2 cursor-pointer  flex gap-2 items-center  justify-center w-[183px] h-[43px] rounded-[20px] px-[19px] py-[10px] bg-(--button-color) text-[18px] font-[400] text-(--button-text)">
+            <button onClick={handleSubmit} className="lg:absolute lg:right-[30%] bottom-2 cursor-pointer  flex gap-2 items-center  justify-center w-[183px] h-[43px] rounded-[20px] px-[19px] py-[10px] bg-(--button-color) text-[18px] font-[400] text-(--button-text)">
               Subscribe
               <img
                 src={Arrow}
                 alt="arrow"
-                className="shadow-[#5D5D5D] shadow-md bg-[black] bo rder-[1px] border-(--border-color2) h-[33px] w-[33px] rounded-[14px] p-2"
+                className="shadow-[#5D5D5D] shadow-md bg-[black] border-[1px] border-(--border-color2) h-[33px] w-[33px] rounded-[14px] p-2"
               />
             </button>
           </div>
