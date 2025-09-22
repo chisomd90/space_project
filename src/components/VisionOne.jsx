@@ -1,5 +1,5 @@
 import React from 'react'
-import spaceship from '../assets/ship.svg'
+import spaceship from '../assets/Ship.svg'
 import check from "../assets/Vector.svg";
 
 const VisionOne = () => {
